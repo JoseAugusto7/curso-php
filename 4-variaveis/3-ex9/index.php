@@ -4,7 +4,7 @@
 
     $a = 5; // int
     $b = 7.5; // float
-    $c = $a + $b;
+    $c = $a + $b; // Somandos as duas variáveis
 
     echo $c;
 
