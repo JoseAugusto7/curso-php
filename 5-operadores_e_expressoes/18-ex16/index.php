@@ -10,16 +10,16 @@
         echo "A é igual a B <br>";
     }
 
-    if ($a != $b) { // A única verdadeira é essa operação.
+    if ($a != $b) {
         echo "A é diferente de B <br>";
     }
 
     if ($a === $b) {
-        "A é idêntico a B <br>";
+        echo "A é idêntico a B <br>";
     }
 
     if ($a !== $b) {
-        "A não é idêntico a B <br>";
+        echo "A não é idêntico a B <br>";
     }
 
 ?>
