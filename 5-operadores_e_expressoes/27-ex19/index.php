@@ -19,4 +19,6 @@
     echo gettype($d);
     echo "<br>";
 
+    // Veja que todos foram transformados em inteiros.
+
 ?>
