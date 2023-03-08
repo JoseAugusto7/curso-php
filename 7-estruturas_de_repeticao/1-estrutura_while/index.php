@@ -18,7 +18,7 @@
         $y --;
     }
 
-    echo "Continuando código";
+    echo "Continuando código <br>";
 
     $z = 20;
 
