@@ -14,10 +14,10 @@
 
     }
 
-    for ($b = 10; $b < $arr[10]; $b++) {
+    for ($b = 0; $b < count($arr); $b++) {
 
-        if ($b % 2 == 1) {
-            echo "$b <br>";
+        if ($arr[$b] % 2 == 1) {
+            echo "$arr[$b] <br>";
         }
 
     }
