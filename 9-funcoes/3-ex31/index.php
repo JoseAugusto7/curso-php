@@ -10,8 +10,8 @@
     */
 
     $arr = ["José", "Estudar", "Melhorar", "Aprender", "Água"];
-
-    $funcao = implode(", ", $arr); // Esta "implode()" função transforma um array em uma string só.
+    
+    $funcao = implode(", ", $arr); // Esta função "implode()" transforma um array em uma string só.
 
     echo $funcao;
 
