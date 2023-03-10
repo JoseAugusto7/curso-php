@@ -7,7 +7,7 @@
 
     $arr = ["O", "PHP", "é", "muito", "legal"];
 
-    $frase = implode(", ", $arr);
+    $frase = implode(" ", $arr);
 
     echo $frase;
 
