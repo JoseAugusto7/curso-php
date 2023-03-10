@@ -7,6 +7,9 @@
 
     $frase = "Cade o meu queijo? Ele estava aqui em cima";
 
-    echo substr($frase, 11, 6);
+    $queijo = substr($frase, 11, 6);
+    $estava = substr($frase, 23, 6);
+
+    echo $queijo . " " . $estava;
 
 ?>
