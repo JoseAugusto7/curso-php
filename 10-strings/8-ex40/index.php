@@ -7,12 +7,19 @@
 
     $roer = "O rato roeu a roupa do rei de Roma";
 
-    for ($a = 0; $a <= strlen($roer); $a ++) {
+    $b = 0;
 
-        if ($a = strlen($roer)) {
-            echo $a;
+    for ($a = 0; $a < strlen($roer); $a ++) {
+
+        if ($roer[$a] === "a") {
+            
+            global $b;
+            $b ++;
+
         }
 
     }
+
+    echo $b;
 
 ?>
