@@ -6,4 +6,6 @@
 
     echo $teste; // Pode ver que ele retorna a posição onde começa a string que eu pedi.
 
+    // Com esse método encontramos a primeira ocorrência que procuramos.
+
 ?>
