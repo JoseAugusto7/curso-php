@@ -8,13 +8,13 @@
 
     $carro = ["jaguar", "3.0", "azul", 18, "Teto solar", "automático"];
 
-    list($marca, $pot, $cor, $t, $teto, $caimbro) = $carro;
+    list($marca, $pot, $cor, $t, $teto, $cambio) = $carro;
 
     echo "$marca <br>";
     echo "$pot <br>";
     echo "$cor <br>";
     echo "$t <br>";
     echo "$teto <br>";
-    echo "$caimbro <br>";
+    echo "$cambio <br>";
 
 ?>
