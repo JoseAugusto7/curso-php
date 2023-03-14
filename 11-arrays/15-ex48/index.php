@@ -13,6 +13,6 @@
 
     echo "<br>";
 
-    print_r($comprados);
+    // print_r($comprados);
 
 ?>
