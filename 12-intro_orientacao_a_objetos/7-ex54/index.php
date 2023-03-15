@@ -8,8 +8,8 @@
 
     class Pessoa {
 
-        public $nome = "José";
-        public $idade = 23;
+        public $nome;
+        public $idade;
 
         function andar($x) {
             echo "A pessoa andou $x metros... <br>";
