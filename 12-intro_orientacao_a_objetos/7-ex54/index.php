@@ -19,6 +19,11 @@
 
     $jose = new Pessoa;
 
+    $jose -> nome = "José";
+    $jose -> idade = 23;
+
+    echo "O nome dele é $jose->nome e tem $jose->idade anos. <br>";
+
     echo $jose -> andar(10);
 
 
