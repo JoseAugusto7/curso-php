@@ -14,7 +14,7 @@
 
         function falar() {
 
-            echo "Olá, eu sou um ser humano.";
+            echo "Olá eu sou um ser humano,";
 
         }
 
@@ -27,7 +27,7 @@
 
         function darAula() {
 
-            echo "Ensinando outros humanos.";
+            echo " ensinando outros humanos.";
 
         }
 
@@ -38,7 +38,11 @@
     echo $sophia->olhos . "<br>";
     echo $sophia->orelhas . "<br>";
     echo $sophia->bracos . "<br>";
+    echo $sophia->tarefa . "<br>";
+    echo $sophia->caract . "<br>";
+
 
     $sophia->falar();
+    $sophia->darAula();
 
 ?>
