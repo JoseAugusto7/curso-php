@@ -12,25 +12,27 @@
         public $raca;
         public $cor;
         public $porte;
+        public $nome;
 
-        function __construct($patas, $raca, $cor, $porte) {
+        function __construct($patas, $raca, $cor, $porte, $nome) {
 
             $this->patas = $patas;
             $this->raca = $raca;
             $this->cor = $cor;
             $this->porte = $porte;
+            $this->nome = $nome;
 
         }
 
-        function caract() {
+        public function caract() {
 
-            print_r($this);
+            echo "O nome do cachorro é $this->nome, ele tem $this->patas patas, é da raça $this->raca, tem a pelagem $this->cor e é $this->porte.";
 
         }
 
     }
 
-    $boby = new Cachorro(4, "Husk", "branca", "grande");
+    $boby = new Cachorro(4, "Husk", "branca", "grande", "Boby");
 
     $boby->caract();
 
