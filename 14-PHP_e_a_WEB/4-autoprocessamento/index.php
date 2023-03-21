@@ -2,9 +2,9 @@
 
     $method = $_SERVER["REQUEST_METHOD"];
 
-    if (isset($_POST["nome"])) {
+    if (isset($_POST["name"])) {
 
-        $nome = $_POST["nome"];
+        $name = $_POST["name"];
         $idade = $_POST["idade"];
 
     }
@@ -26,7 +26,7 @@
     ?>
     <form action="index.php" method="POST">
         <div>
-            <input type="text" name="nome" placeholder="Seu nome">
+            <input type="text" name="name" placeholder="Seu nome">
         </div>
         <div>
             <input type="text" name="idade" placeholder="Sua idade">
