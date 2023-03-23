@@ -1,6 +1,25 @@
 <?php
 
+    $validacoes = [];
 
+    if (count($_POST) > 0) {
+
+        if ($_POST["nome"] === "") {
+            $validacoes[] = "Por favor, preencha o nome do usuário.";
+        }
+
+        if ($_POST["email"] === "") {
+            $validacoes[] = "Por favor, preencha seu email.";
+        }
+
+        if ($_POST["senha"] === "" || $_POST["confSenha"] === "") {
+            $validacoes[] = "Por favor, preencha sua senha.";
+        }
+
+        if ($_POST["senha"] != $_POST["confSenha"])
+        $validacoes[] = "A senha e sua confirmação devem ser iguais.";
+
+    } 
 
 ?>
 <!DOCTYPE html>
@@ -12,6 +31,13 @@
     <title>Validação de usuário</title>
 </head>
 <body>
+    <?php if (count($validacoes)): ?>
+        <ul>
+            <?php foreach($validacoes as $validacao): ?>
+                <li><?= $validacao ?></li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endif; ?>
     <form action="index.php" method="POST">
         <div>
             <input type="text" name="nome" placeholder="Digite seu nome">
