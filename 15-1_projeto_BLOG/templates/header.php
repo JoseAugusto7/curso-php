@@ -22,10 +22,10 @@
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="<?php $BASE_URL ?>index.php">Home</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="<?php $BASE_URL ?>contato.php">Contatos</a></li>
+                <li><a href="<?php $BASE_URL ?>index.php" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="<?php $BASE_URL ?>contato.php" class="nav-link">Contatos</a></li>
             </ul>
         </nav>
     </header>
