@@ -32,13 +32,13 @@
         </div>
         <aside id="nav-container">
             <h3 id="tags-title">Tags</h3>
-            <ul class="tags-list">
+            <ul id="tag-list">
                 <?php foreach($currentPost["tags"] as $tag): ?>
                     <li><a href="#"><?= $tag ?></a></li>
                 <?php endforeach; ?>
             </ul>
             <h3 id="categories-title">Categorias</h3>
-            <ul id="categorie-list">
+            <ul id="categories-list">
                 <?php foreach($categories as $category): ?>
                     <li><a href="#"><?= $category ?></a></li>
                 <?php endforeach; ?>
